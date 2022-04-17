@@ -1,4 +1,4 @@
-$files = Get-ChildItem -File -Filter *.png  -Path retroarch\overlay\GameBezels\Atari5300\
+$files = Get-ChildItem -File -Filter *.png  -Path retroarch\overlay\GameBezels\Atari5200\
 
 for ($i=0; $i -lt $files.Count; $i++) {
     Write-Output $files[$i].FullName
